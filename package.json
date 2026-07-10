@@ -1,0 +1,58 @@
+{
+  "name": "rapidsio_backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node dist/index.js",
+    "dev": "nodemon -r tsconfig-paths/register src/index.ts",
+    "build": "rimraf dist && tsup",
+    "ts.check": "tsc --project tsconfig.json",
+    "add-build": "git add dist"
+  },
+  "keywords": [],
+  "author": "Try N Test",
+  "license": "ISC",
+  "description": "",
+  "overrides": {
+    "cloudinary": "^2.9.0"
+  },
+  "dependencies": {
+    "@types/nodemailer": "^6.4.17",
+    "argon2": "^0.43.0",
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^2.9.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.13.2",
+    "multer": "^2.0.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "nanoid": "^5.1.5",
+    "nodemailer": "^7.0.9",
+    "nodemon": "^3.1.10",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/bcryptjs": "^3.0.0",
+    "@types/cookie-parser": "^1.4.8",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "@types/jest": "^29.5.14",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/multer": "^1.4.12",
+    "@types/node": "^22.14.1",
+    "supertest": "^7.1.0",
+    "ts-jest": "^29.3.2",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3"
+  }
+}
