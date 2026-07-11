@@ -1,12 +1,10 @@
 export const BlogCategories: string[] = [
-  'Home Improvement & Woodwork Ideas',
-  'Carpentry Services Explained',
-  'Local Area Projects / Case Studies',
-  'Repair & Maintenance Tips',
-  'Budget & Cost Guides',
-  'Furniture Buying Guides',
-  'Interior Design + Carpentry Combo',
-  'Materials & Wood Knowledge',
-  'Location-Based Blogs',
-  'DIY vs Professional Work'
+  'Positioning',
+  'Web Design',
+  'CRO',
+  'Case Studies',
+  'Agency Insights',
+  'Web Engineering',
+  'B2B Buying Journey ',
+  'Brand Identity'
 ]
